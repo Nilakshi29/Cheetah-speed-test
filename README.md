@@ -27,12 +27,10 @@ It also stores your speed test results in **local history** and visualizes them 
 - React.js
 - CSS3
 - Recharts 
-- Icons from `react-icons`
 
 **Backend:**
 - Node.js + Express
 - MongoDB (with Mongoose)
-- CORS & dotenv (it's just a simple file)
 
 ---
 
@@ -40,7 +38,7 @@ It also stores your speed test results in **local history** and visualizes them 
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![light](screenshots/light_mode.png) | ![dark](screenshots/dark_mode.png) |
+| ![light](client/screenshots/light_mode.png) | ![dark](client/screenshots/dark_mode.png) |
 ---
 
 ## 📦 Installation
@@ -105,8 +103,4 @@ Feel free to connect:
 [LinkedIn](https://www.linkedin.com/in/nilakshi-shree)
 [GitHub](https://github.com/Nilakshi29)
 
-## 📄 License
-
-This project is licensed under the MIT License.
-Feel free to fork, improve, or use it as a starter template!
 
