@@ -1,0 +1,57 @@
+.footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: #f0f2f5;
+  color: #333;
+  border-top: 1px solid #ddd;
+}
+
+.footer .heart {
+  color: red;
+  font-size: 1rem;
+}
+
+.social-icons {
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a.github-icon:hover {
+  color: #6e5494;
+}
+.social-icons a.linkedin-icon:hover {
+  color: #007bff;
+}
+
+/* 🌙 Dark Mode */
+body.dark-mode .footer {
+  background-color: #2c2c2c;
+  color: #f0f0f0;
+  border-top: 1px solid #555;
+}
+
+body.dark-mode
+.social-icons a {
+  margin: 0 10px;
+  color: #fffdfd;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+body.dark-mode 
+.social-icons a.github-icon:hover {
+  color: #6e5494;
+}
+
+body.dark-mode
+.social-icons a.linkedin-icon:hover {
+  color: #007bff;
+}
