@@ -1,7 +1,9 @@
 // src/components/SpeedTest.js
 import React, { useState } from 'react';
 
-const API_URL = 'http://localhost:5000/api';
+// replacing const API_URL = 'http://localhost:5000/api'; with below link to link the frontend to backend
+const API_URL = 'https://cheetah-server-zr6x.onrender.com';';
+//now the frontend sends the call to backend and backend stores it in the mongodb
 
 const SpeedTest = () => {
   const [downloadSpeed, setDownloadSpeed] = useState(null);
