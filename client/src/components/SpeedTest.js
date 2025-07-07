@@ -19,7 +19,8 @@ const SpeedTest = () => {
     const endTime = performance.now();
 
     const duration = (endTime - startTime) / 1000;
-    const speed = (((fileSizeInBytes * 8) / duration / 1024 / 1024)*0.125).toFixed(2);
+    //to maintain an optimum ratio of actual and my server, the extra division by 2 is added 
+    const speed = (((fileSizeInBytes * 8) / duration / 1024 / 1024)/2).toFixed(2);
     setDownloadSpeed(speed);
     return speed;
   };
@@ -34,7 +35,7 @@ const SpeedTest = () => {
     const endTime = performance.now();
 
     const duration = (endTime - startTime) / 1000;
-    const speed = (((dummyData.length * 8) / duration / 1024 / 1024)*0.125).toFixed(2);
+    const speed = (((dummyData.length * 8) / duration / 1024 / 1024)).toFixed(2);
     setUploadSpeed(speed);
     return speed;
   };
@@ -44,7 +45,8 @@ const SpeedTest = () => {
     const start = performance.now();
     await fetch(`${API_URL}/ping`);
     const end = performance.now();
-    const latency = (end - start).toFixed(2);
+    //to maintain an optimum ratio of actual and my server, the extra division by 2 is added 
+    const latency = ((end - start)/2).toFixed(2);
     setPing(latency);
     return latency;
   };
