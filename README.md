@@ -44,7 +44,7 @@ LINK: https://cheetah-speed-test.vercel.app/
 |------------|-----------|
 | ![light](client/screenshots/light_mode.png) | ![dark](client/screenshots/dark_mode.png) |
 
-![visualization](./visualization screenshot.png) 
+![visualization](visualization_screenshot.png) 
 
 ---
 
