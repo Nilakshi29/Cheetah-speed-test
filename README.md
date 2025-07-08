@@ -10,6 +10,10 @@ It also stores your speed test results in **local history** and visualizes them 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ---
 
+## 🔗 Deployment
+LINK: https://cheetah-speed-test.vercel.app/
+
+---
 ## 🚀 Features
 
 - 📥 Download, 📤 Upload, and 📶 Ping measurement
@@ -39,6 +43,9 @@ It also stores your speed test results in **local history** and visualizes them 
 | Light Mode | Dark Mode |
 |------------|-----------|
 | ![light](client/screenshots/light_mode.png) | ![dark](client/screenshots/dark_mode.png) |
+
+![visualization](./visualization screenshot.png) 
+
 ---
 
 ## 📦 Installation
