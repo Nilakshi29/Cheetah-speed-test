@@ -25,6 +25,16 @@ LINK: https://cheetah-speed-test.vercel.app/
 
 ---
 
+## 📷 Screenshots
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![light](client/screenshots/light_mode.png) | ![dark](client/screenshots/dark_mode.png) |
+
+![visualization](visualization_screenshot.png) 
+
+---
+
 ## 🛠️ Tech Stack
 
 **Frontend:**
@@ -35,16 +45,6 @@ LINK: https://cheetah-speed-test.vercel.app/
 **Backend:**
 - Node.js + Express
 - MongoDB (with Mongoose)
-
----
-
-## 📷 Screenshots
-
-| Light Mode | Dark Mode |
-|------------|-----------|
-| ![light](client/screenshots/light_mode.png) | ![dark](client/screenshots/dark_mode.png) |
-
-![visualization](visualization_screenshot.png) 
 
 ---
 
